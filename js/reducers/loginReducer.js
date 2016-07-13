@@ -13,6 +13,6 @@ export default function(state = DEFAULT_STATE, action) {
 }
 
 // Selectors (mapStateToProps)
-export const getLogin = (state) => ({
-  onLogging: state.onLogging
+export const getLogin = ({onLogging}) => ({
+  onLogging
 })

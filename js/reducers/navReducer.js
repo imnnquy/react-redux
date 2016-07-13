@@ -17,6 +17,6 @@ export default function reducer(state = DEFAULT_STATE, action = {}) {
 }
 
 // Selectors (mapStateToProps)
-export const getNav = (state) => ({
-  scene: state.scene
+export const getNav = ({scene}) => ({
+  scene
 })
